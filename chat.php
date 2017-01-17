@@ -1,5 +1,4 @@
-<?php include_once("_config.php"); ?>
-<?php
+<?php include_once("_config.php"); 
 session_start();
 // récupère le pseudo en session
 $pseudo = $_SESSION["pseudo"];
